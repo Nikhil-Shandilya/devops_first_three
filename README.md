@@ -15,7 +15,23 @@ git switch main
 git merge new-branch
 git push -u origin main
 git branch -d new-branch
+
+# branch
+git checkout -b new-branch
+# make changes
+git add .
+git commit -m "new-branch-change"
+git push -u origin new-branch
+
+git checkout main
+git pull origin main
+git merge new-branch
+git push origin main
+
+
+
 git show HEAD:index.html | sed -n '1,120p'
+
 echo "Building student-portal"
 ls -la
 echo "Contents of index.html:"
