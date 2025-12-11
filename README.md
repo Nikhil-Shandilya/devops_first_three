@@ -27,7 +27,7 @@ git checkout main
 git pull origin main
 git merge new-branch
 git push origin main
-
+git push origin --delete 2nd-branch
 
 
 git show HEAD:index.html | sed -n '1,120p'
