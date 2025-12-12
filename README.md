@@ -17,7 +17,8 @@ git push -u origin main
 git branch -d new-branch
 
 # branch
-git checkout -b new-branch
+git branch new-branch
+git checkout new-branch
 # make changes
 git add .
 git commit -m "new-branch-change"
