@@ -15,7 +15,7 @@ git switch main
 git merge new-branch
 git push -u origin main
 git branch -d new-branch
-
+git push origin second-branch
 # branch
 git branch new-branch
 git checkout new-branch
